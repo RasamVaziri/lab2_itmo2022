@@ -10,8 +10,7 @@ def DownloadsCount():
             if int(booksDownloads) >10:
                 Downcounter +=1
     print(f'Количество книг, скачанных более 10 раз, составляет: {Downcounter} books.')
-    x = int(input("Enter percentage you want to show: "))
-    digits = [int(n) for n in str(x)]
+    digits = [11,7,3]
     rows = max(digits)
     bar_graph = []
     for row in range(rows, 0, -1):
